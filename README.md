@@ -27,7 +27,7 @@ In order for this intake form to work properly it must meet the following condit
 4. In order to mimic the successful saving of data, use our DBMock class to asynchronously save to local storage and retrieve from local storage...be careful though. See our intern designed the class and didn't really test much so it might not save correctly if you pass in the data incorrectly. But we can't really blame them, they didn't really study in their computer science classes and spent most of their time watching anime and eating ice cream...on second thought that sounds like a great time!
 
 ## Getting started
-1. Once you access this repo, make an initial commit to start the clock. (you're on the honor system here)
+1. Once you access this repo please fork it, indicate that the project is yours, and make an initial commit to start the clock. (you're on the honor system here)
 2. From then on consider the 4 hours to have started. 
 3. Push your code even if not finished, **4 hours** from that start time give or take a few minutes...but please do not abuse this. 
 4. **Try to get the core requirements down first and then tackle the nice to haves after.**
