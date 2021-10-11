@@ -5,7 +5,7 @@ Brave Credit Interview Take Home Challenge #1
 Welcome to the Brave Credit take home challenge. For this challenge we are going to look for you to demonstrate your front end engineering chops as you build out a simple interface for us. We will be providing just basic instructions and welcome you to put your own spin on it. Feel free to use other similar interfaces you might find, but please do not just lift the code directly from another site.
 
 ## Requirements
-Imagine it is your first day at Brave Credit and after a onboarding session it is time to get to work. You were hoping for a nice easy first day, but unfortunately we have a bit of a problem. See, our UI/UX designer forgot to design an interface to allow users to sign up for our newsletter and now they have gone out on a two week technology abstinence retreat with no access to phone, email, or more importantly Figma. In order to hit our deadline we have to pull out a home run and design a nice looking intake form in **4 hours** in order to make the next code deployment.  
+Imagine it is your first day at Brave Credit and after a onboarding session it is time to get to work. You were hoping for a nice easy first day, but unfortunately we have a bit of a problem. See, our UI/UX designer forgot to design an interface to allow users to sign up for our newsletter and now they have gone out on a two week technology abstinence retreat with no access to phone, email, or more importantly Figma. In order to hit our deadline we have to put our heads down and design a nice looking intake form in **4 hours** in order to make the next code deployment.  
 
 In order for this intake form to work properly it must meet the following conditions:
 - Capture first name, last name, email, and date of birth
