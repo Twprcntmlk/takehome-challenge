@@ -1,11 +1,11 @@
 # takehome-challenge
 Brave Credit Interview Take Home Challenge #1
-
+start
 ## Introductions
 Welcome to the Brave Credit take home challenge. For this challenge we are going to look for you to demonstrate your front end engineering chops as you build out a simple interface for us. We will be providing just basic instructions and welcome you to put your own spin on it. Feel free to use other similar interfaces you might find, but please do not just lift the code directly from another site. Please see an attached screen grab for some inspiration. You by all means do not need to follow this, nor should you follow it exactly, but might just help provide an idea how we expect an interface such as this to look.
 
 ## Requirements
-Imagine it is your first day at Brave Credit and after a onboarding session it is time to get to work. You were hoping for a nice easy first day, but unfortunately we have a bit of a problem. See, our UI/UX designer forgot to design an interface to allow users to sign up for our newsletter and now they have gone out on a two week technology abstinence retreat with no access to phone, email, or more importantly Figma. In order to hit our deadline we have to put our heads down and design a nice looking intake form in **4 hours** in order to make the next code deployment.  
+Imagine it is your first day at Brave Credit and after a onboarding session it is time to get to work. You were hoping for a nice easy first day, but unfortunately we have a bit of a problem. See, our UI/UX designer forgot to design an interface to allow users to sign up for our newsletter and now they have gone out on a two week technology abstinence retreat with no access to phone, email, or more importantly Figma. In order to hit our deadline we have to put our heads down and design a nice looking intake form in **4 hours** in order to make the next code deployment.
 
 In order for this intake form to work properly it must meet the following conditions:
 - Capture first name, last name, email, and date of birth
@@ -28,10 +28,10 @@ In order for this intake form to work properly it must meet the following condit
 
 ## Getting started
 1. Once you access this repo please fork it, indicate that the project is yours, and make an initial commit to start the clock. (you're on the honor system here)
-2. From then on consider the 4 hours to have started. 
-3. Push your code even if not finished, **4 hours** from that start time give or take a few minutes...but please do not abuse this. 
+2. From then on consider the 4 hours to have started.
+3. Push your code even if not finished, **4 hours** from that start time give or take a few minutes...but please do not abuse this.
 4. **Try to get the core requirements down first and then tackle the nice to haves after.**
-5. Provide any comments or additional considerations you might have had that did not make it in to your solution. 
+5. Provide any comments or additional considerations you might have had that did not make it in to your solution.
 
 ## Assets
 Here is a list of urls you can use for assets. These should all be publicly available, so let me know if you can't access them.
@@ -45,7 +45,7 @@ Here is a list of urls you can use for assets. These should all be publicly avai
 ```
 class DBMock {
   constructor() { }
-  
+
   async putItem(key, data) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -78,4 +78,3 @@ const isValid = (value) => {
 
 ## Example screen grab
 ![Screen Shot 2021-10-11 at 2 22 00 PM](https://user-images.githubusercontent.com/60827135/136860733-41c2dbcc-d481-4f27-8358-c4210b03aec5.png)
-
