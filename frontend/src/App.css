@@ -1,0 +1,195 @@
+.Login{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.Content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.Alert{
+    justify-content: center;
+    z-index: 10;
+}
+.Form_Holder{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.Splash{
+
+    display:flex;
+    width:100vw;
+    justify-content: center;
+}
+
+.Splash img {
+    display:flex;
+    height: 50vh;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+
+.Title_Welcome{
+
+    color: blue;
+    font-size: 48px;
+}
+
+.Title_Span{
+    color: blue;
+    font-size: 1.2em;
+}
+.form-disclaimer{
+    font-size:.7em;
+}
+
+.form-inputs{
+    margin:2%;
+}
+
+.Errors{
+    font-size:1em;
+    color:red;
+}
+
+.button{
+    margin: 3%;
+}
+
+@media screen and (max-width: 768px) {
+    .Title_Welcome{
+
+        color: blue;
+        font-size: 36px;
+    }
+
+    .Title_Span{
+        color: blue;
+        font-size: 1.2em;
+    }
+    .form-disclaimer{
+        font-size:.7em;
+    }
+
+    .form-signin{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .Form_Holder{
+        width:95%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .Image1{
+        display:none;
+    }
+    .Content{
+        margin-left:7%;
+        margin-right:7%;
+        width:95%;
+    }
+    .Splash img {
+        height: 50vh;
+        width:100vw;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Title_Welcome{
+
+        color: blue;
+        font-size: 30px;
+    }
+
+    .Title_Span{
+
+        color: blue;
+        font-size: .8em;
+    }
+    .form-disclaimer{
+        font-size:.7em;
+    }
+
+    .form-signin{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .Form_Holder{
+
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .Image1{
+        display:none;
+    }
+    .Content{
+        margin-left:7%;
+        
+        width:95%;
+    }
+    .Splash{
+        display:flex;
+        justify-content: center;
+    }
+    .Splash img {
+        height: 50vh;
+        width:90vw;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Title_Welcome{
+        color: blue;
+        font-size: 24px;
+    }
+
+    .Title_Span{
+        color: blue;
+        font-size: .6em;
+    }
+    .form-disclaimer{
+        font-size:.7em;
+    }
+    .form-signin{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .Form_Holder{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .Image1{
+        display:none;
+    }
+    .Content{
+        margin-left:7%;
+        width:95%;
+    }
+        .Splash{
+        display:flex;
+        justify-content: center;
+    }
+    .Splash img {
+        height: 50vh;
+        width:100vw;
+        margin-bottom: 2%;
+    }
+}
