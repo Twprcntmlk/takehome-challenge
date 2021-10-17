@@ -133,7 +133,8 @@ function App() {
 
       <div className="Content">
 
-        <h1 className="Title_Welcome">Welcome!</h1>
+        <h1 className="Title_Welcome">Welcome to </h1>
+        <img src="https://d3e1i93f88eoxl.cloudfront.net/logo-text-only-blurple.svg"/>
         <span className="Title_Span">Let's start with come basic info</span>
 
         {/* Provide a helpful tip if the user tries to submit the form and it is not valid */}
